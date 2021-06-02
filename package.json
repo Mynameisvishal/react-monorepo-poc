@@ -6,7 +6,7 @@
     "lerna": "^4.0.0"
   },
   "scripts": {
-    "start": "lerna exec --scope {@poc/employees,@poc/emp-server} -- yarn start"
+    "start": "lerna exec --scope @poc/employees -- yarn start"
   },
   "workspaces": {
     "packages": [
